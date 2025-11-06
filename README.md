@@ -22,7 +22,7 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 ## Project Layout
 
 ```
-sharepoint.py   # Dual-mode entry (CLI/GUI)
+sharepoint.py                 # Dual-mode entry (CLI/GUI)
 requirements.txt              # Pip requirements
 ```
 
@@ -160,7 +160,9 @@ Pick **2** for the GUI or **1** for CLI.
 
 ### GUI mode
 
-1. **Video URL**: Paste your SharePoint/Stream URL.  
+1. **Video URL**: Paste your SharePoint/Stream URL. 
+    **First, paste your SharePoint link into the app. If it doesn’t work, try this:**
+    
    - Ideally paste the **videomanifest** URL copied from DevTools → Network (filter for `videomanifest`).  
    - If you paste a `videotranscode ... part=mediasegment` link, the app will attempt to convert it automatically to a `videomanifest` (DASH) index URL.
 
@@ -196,6 +198,7 @@ Custom output name (optional, no extension to auto-pick):
 ---
 
 ## Where to find the right URL
+**First, paste your SharePoint link into the app. If it doesn’t work, try this:**
 
 - Open the video in your browser.
 - Press **F12** → **Network** tab → reload the page.
