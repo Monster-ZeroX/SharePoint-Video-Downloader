@@ -5,21 +5,8 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 
 > **Important:** Download videos only if you have the rights and permission to do so. Some org streams are DRM protected; this project will **not** bypass DRM.
 
----
 
-## Features
-
-- **Two modes at startup:** `1 - CLI` or `2 - GUI` (Tkinter)
-- **GUI**: paste the URL, select a cookies file via **File Manager**, and optionally set a custom output name
-- **CLI**: prompts you for URL, opens a **file manager** dialog to select cookies (with text fallback)
-- **Auto‑manifest cleanup**: converts `videotranscode ... part=mediasegment` links to a clean `videomanifest` (DASH, `part=index`) when possible
-- **yt-dlp** integration: robust fragment downloading and merging (to MP4 when possible)
-- **Logging + progress**: visible progress in CLI and progress bar + log panel in GUI
-- Cross‑platform: Windows, macOS, Linux (GUI requires Tkinter; see notes below)
-
----
-
- **New! Windows users (no Python needed):**
+> **New! Windows users (no Python needed):**
 >
 > **Download the prebuilt `.exe` from the Releases page**, unzip, and double‑click
 > **`SharePointVideoDownloader.exe`**. The app opens directly in **GUI** mode.
@@ -300,6 +287,4 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-```
-
 ```
