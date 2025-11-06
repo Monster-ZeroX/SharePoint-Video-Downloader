@@ -6,8 +6,8 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 > **Important:** Download videos only if you have the rights and permission to do so. Some org streams are DRM protected; this project will **not** bypass DRM.
 
 
-> **New! Windows users (no Python needed):**
->
+ **New! Windows users (no Python needed):**
+
 > **Download the prebuilt `.exe` from the Releases page**, unzip, and double‑click
 > **`SharePointVideoDownloader.exe`**. The app opens directly in **GUI** mode.
 >
