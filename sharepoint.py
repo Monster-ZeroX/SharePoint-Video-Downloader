@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-sp_sharepoint_yt_dlp_gui.py
+sharepoint.py
 ---------------------------
 Dual-mode (CLI or GUI) downloader for Microsoft Stream (on SharePoint) / SharePoint video URLs using yt-dlp.
 
@@ -431,3 +431,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
