@@ -1,4 +1,4 @@
-# SharePoint / Stream (on SharePoint) Video Downloader (yt-dlp)
+# SharePoint / Stream (on SharePoint) Video Downloader
 
 A dual‑mode (**CLI** or **GUI**) Python tool that downloads Microsoft Stream (on SharePoint) / SharePoint videos using **yt-dlp**.  
 It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn single media segment URLs into a proper `videomanifest` DASH URL.
