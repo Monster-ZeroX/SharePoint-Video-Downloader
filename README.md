@@ -8,7 +8,7 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 
  **New! Windows users (no Python needed):**
 
- **Download the prebuilt `.exe` from the Releases page**, unzip, and double‑click
+ **Download the prebuilt `.exe` from the [Releases](https://github.com/Monster-ZeroX/SharePoint-Video-Downloader/releases/tag/V1) page**, unzip, and double‑click
  **`SharePointVideoDownloader.exe`**. The app opens directly in **GUI** mode.
 
  **How to use the EXE:**
@@ -21,14 +21,6 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
  If Windows SmartScreen warns you, click **More info → Run anyway** (or build/sign it yourself).
 
  ---
-
-
-A dual‑mode (**CLI** or **GUI**) Python tool that downloads Microsoft Stream (on SharePoint) / SharePoint videos using **yt-dlp**.  
-It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn single media segment URLs into a proper `videomanifest` DASH URL.
-
-> **Important:** Download videos only if you have the rights and permission to do so. Some org streams are DRM protected; this project will **not** bypass DRM.
-
----
 
 ## Features
 
