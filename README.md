@@ -143,7 +143,7 @@ This installs:
 ### Start the tool (dual-mode)
 
 ```bash
-python sp_sharepoint_yt_dlp_gui.py
+python sharepoint.py
 ```
 
 You will be prompted:
