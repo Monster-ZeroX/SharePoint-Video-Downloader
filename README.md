@@ -13,7 +13,8 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 
  **How to use the EXE:**
  1. Paste your SharePoint/Stream **video URL**.
- 2. *(Optional)* Click **Browse…** and select your **`cookies.txt`** (Netscape format) if your video needs authentication.
+ 2. *(Optional)* Click **Browse…** and select your **`cookies.txt`** (Netscape format) if your video needs authentication. Use [Get cookies.txt LOCALLY
+](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc?pli=1)
  3. *(Optional)* Enter a **custom file name** (leave blank to use the video title).
  4. Click **Download**. A bundled **`ffmpeg.exe`** is included in the release; if it’s missing,
     place `ffmpeg.exe` in the same folder as the `.exe`.
