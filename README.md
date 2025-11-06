@@ -19,6 +19,42 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 
 ---
 
+> **New! Windows users (no Python needed):**
+>
+> **Download the prebuilt `.exe` from the Releases page**, unzip, and double‑click
+> **`SharePointVideoDownloader.exe`**. The app opens directly in **GUI** mode.
+>
+> **How to use the EXE:**
+> 1. Paste your SharePoint/Stream **video URL**.
+> 2. *(Optional)* Click **Browse…** and select your **`cookies.txt`** (Netscape format) if your video needs authentication.
+> 3. *(Optional)* Enter a **custom file name** (leave blank to use the video title).
+> 4. Click **Download**. A bundled **`ffmpeg.exe`** is included in the release; if it’s missing,
+>    place `ffmpeg.exe` in the same folder as the `.exe`.
+>
+> If Windows SmartScreen warns you, click **More info → Run anyway** (or build/sign it yourself).
+>
+> ---
+
+
+A dual‑mode (**CLI** or **GUI**) Python tool that downloads Microsoft Stream (on SharePoint) / SharePoint videos using **yt-dlp**.  
+It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn single media segment URLs into a proper `videomanifest` DASH URL.
+
+> **Important:** Download videos only if you have the rights and permission to do so. Some org streams are DRM protected; this project will **not** bypass DRM.
+
+---
+
+## Features
+
+- **Two modes at startup:** `1 - CLI` or `2 - GUI` (Tkinter)
+- **GUI**: paste the URL, select a cookies file via **File Manager**, and optionally set a custom output name
+- **CLI**: prompts you for URL, opens a **file manager** dialog to select cookies (with text fallback)
+- **Auto‑manifest cleanup**: converts `videotranscode ... part=mediasegment` links to a clean `videomanifest` (DASH, `part=index`) when possible
+- **yt-dlp** integration: robust fragment downloading and merging (to MP4 when possible)
+- **Logging + progress**: visible progress in CLI and progress bar + log panel in GUI
+- Cross‑platform: Windows, macOS, Linux (GUI requires Tkinter; see notes below)
+
+---
+
 ## Project Layout
 
 ```
@@ -264,4 +300,6 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
+
 ```
