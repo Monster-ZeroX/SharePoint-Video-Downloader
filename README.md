@@ -22,8 +22,7 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 ## Project Layout
 
 ```
-sp_sharepoint_yt_dlp_gui.py   # Dual-mode entry (CLI/GUI) - recommended
-sp_sharepoint_yt_dlp.py       # Simple CLI-only version (optional)
+sharepoint.py   # Dual-mode entry (CLI/GUI)
 requirements.txt              # Pip requirements
 ```
 
