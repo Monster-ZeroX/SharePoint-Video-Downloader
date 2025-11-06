@@ -1,0 +1,13 @@
+# Python package requirements for the SharePoint/Stream downloader
+# Install with: pip install -r requirements.txt
+
+# Core runtime dependency
+yt-dlp
+
+# Notes (not installed via pip):
+# - Tkinter GUI toolkit comes with the standard library; on Linux you may need:
+#     Debian/Ubuntu: sudo apt-get install python3-tk
+#     Fedora: sudo dnf install python3-tkinter
+#     Arch: sudo pacman -S tk
+# - FFmpeg is required for merging/processing media:
+#     https://ffmpeg.org/download.html
