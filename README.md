@@ -168,7 +168,7 @@ Pick **2** for the GUI or **1** for CLI.
    - If you paste a `videotranscode ... part=mediasegment` link, the app will attempt to convert it automatically to a `videomanifest` (DASH) index URL.
 
 3. **Cookies file (optional)**: Click **Browse...** to open a File Manager and pick your `cookies.txt` file (Netscape format).  
-   - If you need cookies, export with a browser extension (e.g., a "cookies.txt" exporter).
+   - If you need cookies, export with a browser extension (e.g., a [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc?pli=1) exporter).
 
 4. **Custom output name (optional)**: Provide a filename (without extension to auto-pick). Leave blank to use the original video title.
 
