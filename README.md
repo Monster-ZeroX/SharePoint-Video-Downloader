@@ -19,7 +19,7 @@ It supports cookies (Netscape `cookies.txt`) and includes heuristics to turn sin
 
 ---
 
-> **New! Windows users (no Python needed):**
+ **New! Windows users (no Python needed):**
 >
 > **Download the prebuilt `.exe` from the Releases page**, unzip, and double‑click
 > **`SharePointVideoDownloader.exe`**. The app opens directly in **GUI** mode.
